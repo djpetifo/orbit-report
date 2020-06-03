@@ -1,0 +1,10 @@
+<h3>Satellite Counts:</h3>
+<div class="counts">
+   <div>Total: <span>{{satellites.length}}</span></div>
+   <div>Space Debris: <span>{{ filter(satellites, 'Space Debris').length }}</span></div>
+   <div>Communication: <span>{{ filter(satellites, 'Communication').length }}</span></div>
+   <div>Probe: <span>{{ filter(satellites, 'Probe').length }}</span></div>
+   <div>Positioning: <span>{{ filter(satellites, 'Positioning').length }}</span></div>
+   <div>Space Station: <span>{{ filter(satellites, 'Space Station').length }}</span></div>
+   <div>Telescope: <span>{{ filter(satellites, 'Telescope').length }}</span></div>
+</div>
